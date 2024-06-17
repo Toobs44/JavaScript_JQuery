@@ -1,0 +1,47 @@
+This file should be submitted to the dropbox for each assignment that 
+has been completed and published to the cislinux server.
+
+Why do programmers prefer dark mode?
+Because light attracts bugs!
+
+Why did the CSS developer go bankrupt?
+Because he used up all his margin
+
+Why did the web designer drown in the ocean?
+Because he couldn't keep his float property.
+
+Why did the student's heart rate go up during the midterm exam?
+Because the professor asked them to write a recursive function 
+and they got stuck in an infinite loop of panic.
+
+Why did the student eat their homework?
+Because their teacher said it was a piece of cake!
+
+PEACOCK!
+            _/_
+          -'a\
+            ||
+            |J
+            2_\
+           /:::\
+          |;ooo;|
+          /Oo@ o\
+         '/o oOo\`
+         /@ O o @\
+        '/.o,()o,\`
+        /().O O  o\
+       / @ , @. () \
+      /,o O' o O o, \  
+   _-'. 'o _o _O_o-o.`-_
+   `"""---......---"""`
+
+ʕ•ᴥ•ʔ  (^o^)/ ~(⁰▿⁰)~ ʕ⊙ᴥ⊙ʔ
+
+Detailed Instructions:
+-Download assignment files (if relevant)
+-Complete assignment as indicated in book (tutorials) or 
+	instruction sheet (hands-ons)
+-Update index.html to include a link to the completed assignment
+-Publish assignment and updated index to your public_html folder 
+	on cislinux.aims.edu
+-Submit itsup.txt to the drop box for the assignment

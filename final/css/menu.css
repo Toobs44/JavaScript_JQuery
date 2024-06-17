@@ -1,0 +1,62 @@
+.stack, .stack li{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  z-index: 2;
+  position: relative;
+ }
+
+.stack a {
+	/*background-color: rgb(204,204,204);*/
+  background-color: lightgray;
+	text-decoration: none;
+	font: 14px 'ColaborateLightRegular', Arial, sans-serif;
+	text-indent: 10px;
+	border-top: 1px solid #ccc;
+	border-left:1px solid #ccc;
+	border-right:1px solid #999;
+	border-bottom:1px solid #999;
+	margin: 0px;
+	padding: 0px;
+	/*color: rgb(53,75,118);*/
+  color:#000000;
+}
+
+.stack a:hover {
+	border-top:1px solid #999;
+	border-left:1px solid #999;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	background-color: #555;
+	color: white;
+}
+
+/* this does work but I think it works on more than I want
+ #holder > ul > li:nth-of-type(2) > a, #holder > ul > li:nth-of-type(3) > a{
+	background-image: url(../images/arrow.png);
+	background-repeat: no-repeat;
+	background-position: 97% 8px;
+}
+#holder > ul > li:nth-of-type(2) > a:hover, #holder > ul > li:nth-of-type(3) > a:hover {
+	background-position: 97% -78px;	
+} */
+
+
+.stack > li:nth-of-type(2) > a, .stack > li:nth-of-type(3) > a {
+	background-image: url(../images/arrow.png);
+	background-repeat: no-repeat;
+	background-position: 97% 8px;
+}
+
+.stack > li:nth-of-type(2) > a:hover, .stack > li:nth-of-type(3) > a:hover{
+	background-position: 97% -78px;	
+} 
+/* This works but I dont know why so I dont trust it. */
+  /* .stack > a {
+	background-image: url(../images/arrow.png);
+	background-repeat: no-repeat;
+	background-position: 97% 8px;
+}
+ .stack > a:hover {
+	background-position: 97% -78px;	
+} */

@@ -1,0 +1,30 @@
+/*css file I stole from the example to make things look pretty*/
+*{
+    margin:0;
+    padding:0;
+  }
+  body{
+    font-family:sans-serif;
+    margin-top:1em;
+    align-items: center;
+  }
+  table{
+    margin:0 auto;
+    background-color:#ccc;
+  }
+  caption{
+    font-weight:bold;
+    font-size:1.1em;
+  }
+  .makert{
+    text-align:right;
+    font-weight:bold;
+  }
+  .makectr{
+    text-align:center;
+  }
+  button {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}

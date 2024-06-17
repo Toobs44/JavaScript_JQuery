@@ -1,0 +1,52 @@
+/*addit.css file for cwb205 project 2  */
+body{
+ 
+  font-family:sans-serif;
+  background-color:#ccc;
+}
+
+#holder{
+  width:600px;
+  margin:0 auto;
+}
+ul,li{
+  margin:0;
+  padding:0;
+}
+li{
+  list-style-type:none;
+}
+.floatit{
+  float:left;
+  margin:.2rem;
+}
+.rc10 {
+    border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+#sidebar{
+  width:9rem;
+  border:1px dashed #714809;
+  border-radius: 10px;
+  background-color:#D2b48c;
+  float:right;
+ 
+  padding:.5em;
+}
+#bidbox{
+   border:1px solid #000;
+   height: auto;
+   width: 200px;
+   border-radius: 10px;
+   text-align:center;
+   color:#900;
+   font-weight:bold;
+   background-color:#ffffd3;
+   padding-top:1em;
+}
+.header{
+  font-variant:small-caps;
+  font-weight:bold;
+  color:#000;
+  border-bottom:1px solid #000;
+}

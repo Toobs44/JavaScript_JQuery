@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!--link the included css file here -->
+  <link rel="stylesheet" href="addit.css">
+  <title>Bid on Vase</title>
+  <!--Your JavaScript to get the bid and computer values goes here -->
+  <!--Enter the total for the calculated shipping, tax and total.-->
+  <script>
+    var bid = prompt("Please enter your bid.");// store the input into a variable.
+    var total = parseFloat(bid);//turn the string variable into a float.
+    var shipping = total * .01;//calculate what 1% of what the total is and store it.
+    var tax = total * .05;//calculate what 5% of what the total is and store it.
+    var newTotal = total + parseFloat(shipping) + parseFloat(tax);
+    /* convert the two variable to floats just like total and 
+     *store the sum of all three.*/ 
+  </script>
+
+</head>
+
+<body>
+  <div id="holder" class="container">
+    <div id="heading">
+      <h2>Bid on the Vase - Special of the Day</h2>
+      <!-- end heading -->
+    </div>
+    <div id="content">
+      <p><img src="images/images.jpg" class="floatit rc10 mr-2" /></p>
+      <div style="clear:right"></div>
+      <div id="sidebar">
+        <ul>
+          <li><a href="#">Books</a></li>
+          <li><a href="#">Purses</a></li>
+          <li><a href="#">Hand Tools</a></li>
+          <li><a href="#">Foot Tools</a></li>
+          <li><a href="#">Fishing</a></li>
+        </ul>
+        <!-- end sidebar -->
+      </div>
+      <p>Accumsan nulla dignissim zzril veniam laoreet sed, ut te esse exerci et, in quis, exerci velit commodo volutpat
+        luptatum dolore tation. Duis euismod vero nulla suscipit, suscipit qui velit odio lobortis vel autem ad
+        consequat commodo blandit. </p>
+      <p>Zzril consequat et eros, aliquip aliquip, velit nibh praesent, ex feugiat dolor quis dolore autem delenit.</p>
+      <p>Accumsan nulla dignissim zzril veniam laoreet sed, ut te esse exerci et, in quis, exerci velit commodo volutpat
+        luptatum dolore tation. Duis euismod vero nulla suscipit, suscipit qui velit odio lobortis vel autem ad
+        consequat commodo blandit. </p>
+      <div id="bidbox"><span style="color: black; text-decoration:underline" ;>Bid Estimator</span><br />
+        <!-- place output from script here -->
+        <!--The calculated amounts are displayed here inside the bidbox-->
+        <script>
+          //display the amounts seperately and the grandtotal.
+          document.write("<p> Bid: $" + total.toFixed(2) +
+            "</p><p>Shipping: $" + shipping.toFixed(2) +
+            "</p><p>Tax: $" + tax.toFixed(2) +
+            "</p><p>Total: $" + newTotal.toFixed(2) + "</p>");
+        </script>
+      </div>
+      <!-- end content -->
+    </div>
+    <!-- end holder -->
+  </div>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

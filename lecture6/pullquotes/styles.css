@@ -1,0 +1,21 @@
+.outLink{
+    color:#900;
+    text-decoration:none;
+} 
+.outLink:hover{
+    color:#090;
+    text-decoration:underline;
+} 
+.boxit{
+    float: right;
+    clear: right;
+    display: block;
+    width: 200px;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 20px;
+    background-color:#FFC;
+    margin: 20px 0 10px 10px;
+    font-style: italic;
+    color: #363; 
+}

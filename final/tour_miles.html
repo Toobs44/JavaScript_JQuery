@@ -1,0 +1,103 @@
+<!Doctype html>
+<!-- tour_miles.html cwb205 final student file -->
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Tour Daily Mileage and Maps</title>
+<link href="css/final_default.css" rel="stylesheet" type="text/css" />
+<link href="css/menu.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/menus.js"></script>
+<script type="text/javascript" src="js/nav1.1.min.js"></script>
+<script type="text/javascript" src="js/bike_tour.js"></script>
+<!-- <script>$(document).ready(function(){       
+  $('tbody tr:even').addClass('stripem');   
+ }); </script> -->
+</head>
+
+<body>
+<div id="holder">
+<div id="header">
+<h1>The Big Bike Tour</h1>
+</div> <!-- end header -->
+
+<ul class="stack">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="get_ready.html">Get Ready</a>
+      <ul>
+        <li><a href="train_schd.html">Training Schedule</a></li>
+        <li><a href="http://www.healthstatus.com/calculate/cbc">Calories Burned Estimator</a></li>
+     </ul>
+  </li>
+  <li><a href="tour.html">The Tour </a>
+        <ul>
+             <li><a href="tour_miles.html">Daily Mileage</a></li>
+            <li><a href="lodging_meals.html">Lodging/Meals</a></li>
+            <li><a href="photos.html">Photo Gallery</a></li>
+          </ul>
+  </li>
+  <li><a href="register.html">Register</a></li>
+</ul>
+
+<div id="main_content">
+
+<div id="map">
+<h2>Route Map</h2>
+<img src="images/pix/map.gif" />
+</div>
+<table id="milestable">
+<caption>Daily Mileage</caption>
+<thead></thead>
+<tfoot></tfoot>
+<tbody>
+<tr>
+<th>Day</th>
+<th>Route</th>
+<th>Miles</th>
+<th>Elevation</th>
+
+</tr>
+<tr>
+  <td>July 4</td>
+  <td>Chabolo to Kophene</td>
+  <td>120 miles</td>
+  <td>13,000 ft.</td>
+  
+ </tr>
+ <tr>
+  <td>July 5</td>
+  <td>Kabul to Herat</td>
+  <td>95 miles</td>
+  <td>5,000 ft.</td>
+  
+ </tr>
+ <tr>
+  <td>July 6</td>
+  <td>Jalalabad to Sheberghan</td>
+  <td>78 miles</td>
+  <td>Loop</td>
+  
+ </tr>
+ <tr>
+  <td>July 7</td>
+  <td>Laghman to Ghazni</td>
+  <td>98 miles</td>
+  <td>5280 ft.</td>
+  
+ </tr>
+ <tr>
+  <td>July 8</td>
+  <td>Khost to Sari Pul</td>
+  <td>112 miles</td>
+  <td>6000 ft.</td>
+  
+ </tr>
+</tbody>
+</table>
+</div><!-- end main_content -->
+<div id="foot">
+&copy;&nbsp;<script>document.write(new Date().getFullYear())</script>  Poobah Sports LLC <br />
+</div><!-- end foot -->
+</div><!-- end holder -->
+</body>
+</html>

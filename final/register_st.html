@@ -1,0 +1,71 @@
+<!Doctype html>
+ <!-- register.html cwb205 final student file -->
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Sign Up</title>
+<link href="css/final_default_st.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+<div id="holder">
+<div id="header">
+<h1>The Big Bike Tour</h1>
+</div> <!-- end header -->
+
+<ul>
+   <li><a href="index.html">Home</a></li>
+  <li><a href="get_ready.html">Get Ready</a>
+      <ul>
+        <li><a href="train_schd.html">Training Schedule</a></li>
+        <li><a href="http://www.healthstatus.com/calculate/cbc">Calories Burned Estimator</a></li>
+     </ul>
+  </li>
+  <li><a href="tour.html">The Tour </a>
+        <ul>
+             <li><a href="tour_miles.html">Daily Mileage</a></li>
+            <li><a href="lodging_meals.html">Lodging/Meals</a></li>
+            <li><a href="photos.html">Photo Gallery</a></li>
+          </ul>
+  </li>
+  <li><a href="register.html">Register</a></li>
+</ul>
+
+<div id="main_content">
+<h1>Tour Signup</h1>
+<form action="" method="post" id="order_form" name="order_form">
+<fieldset id="contact">
+<legend>Contact Information</legend>
+<div><label for="fname" class="label">First Name:</label><input type="text" name="fname" id="fname" /></div>
+<div><label for="lname" class="label">Last Name:</label><input type="text" name="lname" id="lname" /></div>
+<div><label for="street" class="label">Street:</label><input type="text" name="street" id="street" /></div>
+<div><label for="city" class="label">City:</label><input type="text" name="city" id="city" /></div>
+<div><label for="state" class="label">State:</label><input type="text" name="state" id="state" /></div>
+<div><label for="zip" class="label">Zip Code:</label><input type="text" name="zip" id="zip"/></div>
+<div><label for="email" class="label">Email:</label><input type="text" name="email" id="email" /></div>
+<div><label for="date" class="label">Date:</label><input type="text" name="date" id="date" /></div>
+</fieldset><!-- end contact info -->
+
+<fieldset id="paymentinfo">
+<legend>Payment Information</legend>
+<div><label for="regcharge">Tour Registration:</label> $130.00</div>
+<div><label for="cdard" class="label">Credit Card:</label><select name="ccard" id="ccard">
+  <option value="Amex">American Express</option>
+  <option value="MC">Master Card</option>
+  <option value="Visa">Visa</option>
+  <option value="Disc">Discover</option>
+</select>
+<div><label for="cardhold" class="label">Card Holder Name:</label><input type="text" name="cardhold" id="cardhold" /></div>
+<div><label for="cardnum" class="label">Card Number:</label><input type="text" name="cardnum" id="cardnum" /></div>
+</fieldset><!-- end payment -->
+<input type="submit" name="submit" value="Register" /><input type="reset" name="reset"  value="Cancel" />
+
+</form>
+</div><!-- end main_content -->
+<div id="foot">
+&copy;&nbsp;<script>document.write(new Date().getFullYear())</script>  Poobah Sports LLC - <br />
+</div><!-- end foot -->
+</div><!-- end holder -->
+</body>
+</html>

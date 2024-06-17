@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title></title>
+<link rel="stylesheet" href="new_styles.css">
+<script src="modernizr-1.5.js"></script>
+<script src="dateobj.js"></script>
+</head>
+<body>
+<div id="wrapper">
+<header id="daycell">
+<script>
+      // Call daystillXmas() function and Save the int in the variable.
+      var daysleft = daysTillXmas();
+
+      // get the return string and save it in the today variable
+      var today = currentDate();
+
+      //convert the today string variable to Date() values
+      var xmasDates = new Date(today);
+
+      //use if and getDate for the 25th through the 31st to change the message.
+      if ( xmasDates.getDate() >= 25  ){
+            // display "Happy Holidays, from North Pole Novelties!".
+            document.write("Happy Holidays, from North Pole Novelties!")
+      }
+      // otherwise display days till xmas.
+      else
+      document.write("Today is "+ today +". Only "+ daysleft +" days until Christmas!");
+</script>
+</header>
+<nav>
+<a href="#">Home Page</a><br />
+   <a href="#">Shopping Cart</a><br />
+   <a href="#">Your Account</a><br />
+   <a href="#">Contact Us</a><br />
+   <a href="#" >Angels</a><br />
+   <a href="#">Cards</a><br />
+   <a href="#">Collectibles</a><br />
+   <a href="#">Creches</a><br />
+   <a href="#">Garland</a><br />
+   <a href="#">Gift Wraps</a><br />
+   <a href="#">Lights</a><br />
+   <a href="#">Nutcrackers</a><br />
+   <a href="#">Ornaments</a><br />
+   <a href="#">Santas</a><br />
+   <a href="#">Trains</a><br />
+   <a href="#">Trees</a><br />
+   <a href="#">Villages</a><br />
+   <a href="#">Wreaths</a><br />
+</nav>
+<section id="main">
+<p style="text-align:center"><img src="images/logo.jpg" alt="NPN" /></p>
+<p><img src="images/bells.jpg" alt="" style="float: left" />Welcome to our online store. Consider us your complete holiday 
+      store. Whether you're a collector or simply looking for a beautiful 
+      piece to treasure for years, you'll find it at NPN. Please click on 
+      one of the many links to explore all we have to offer.</p>
+      <h3>News Flash!</h3>
+      <p>North Pole Novelties is proud to announce a new line of 
+      <b>Lasseter Old Towne Village collectible houses</b>. 
+      Start building your collection of these wonderful miniature 
+      porcelain houses and shops. </p>
+      <p>Each model has accessories to enhance the collection. Be sure to 
+      order extra trees, fences, street lights and signs to bring activity 
+      and a festive atmosphere to your miniature town.</p>
+       <h3>Who Are We?</h3>
+      <p>
+      <img src="images/watkins.jpg" alt="" style="float: right; margin: 0px 0px 15px 15px" />
+      Located in Seton Grove, Minnesota, North Pole Novelties is one of the 
+      oldest and largest holiday stores in the country. The store was founded 
+      in 1968 by <b>David Watkins</b> (shown here). Today, David, his family, 
+      and over 300 employees manage the daily operation of making the holiday 
+      season last all year.</p>
+      <p>The store itself is the size of two football fields and attracts 
+      visitors from around the world. If you can't pay us a visit, order our 
+      catalogue. We will deliver to any spot in the United States and 
+      overseas. In a rush? We can deliver your order overnight! We also 
+      gift wrap.</p>
+</section>
+<footer>
+<p>Happy Christmas</p>
+</footer>
+</div><!-- end wrapper -->
+</body>
+</html>

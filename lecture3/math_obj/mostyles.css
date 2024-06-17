@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(209, 192, 169);
+  color: black;
+  }
+
+#quotes {
+  text-align: center; 
+  background-color: white; 
+  color: black;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: sans-serif; 
+  padding: 2px;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+li {
+  list-style-image: url(images/button.gif); 
+  padding-left: 5px
+}
+li a {
+  font-size: 1rem; 
+  font-family: sans-serif;
+}
+.container {
+  background-color:#fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 1rem;
+  padding: 1rem;
+}

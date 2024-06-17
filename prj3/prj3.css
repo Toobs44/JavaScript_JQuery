@@ -1,0 +1,17 @@
+/*css file for project 3 Javascript basics*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+ul {
+  font-size: 1.2em;
+  background-color: #ccc;
+  width: 100px;
+  margin-left: 2em;
+  padding: 1em;
+}
